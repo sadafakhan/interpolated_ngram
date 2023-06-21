@@ -12,7 +12,7 @@ Returns:
 
 To run: 
 ```
-ngram_count.sh training_data ngram_count_file
+src/ngram_count.sh training_data ngram_count_file
 ```
 
 ```build_lm.sh``` builds an LM using ngram counts WITHOUT smoothing. 
@@ -25,7 +25,7 @@ Returns:
 
 To run: 
 ```
-build_lm.sh ngram_count_file lm_file
+src/build_lm.sh ngram_count_file lm_file
 ```
 
 ```ppl.sh``` calculates the perplexity of a test data given an LM and three lambdas that are each non-negative real numbers that sum to 1. 
@@ -42,7 +42,7 @@ Returns:
 
 To run: 
 ```
-ppl.sh lm_file l1 l2 l3 test_data output_file
+src/ppl.sh lm_file l1 l2 l3 test_data output_file
 ```
 
 The output folder contains the results of this pipeline when the training_data file is data/wsj_sec0_19.word and the test_data file is data/wsj_sec22.word. Each respective lambda value is listed in the file name. 
