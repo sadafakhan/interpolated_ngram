@@ -45,6 +45,6 @@ To run:
 src/ppl.sh lm_file l1 l2 l3 test_data output_file
 ```
 
-The output folder contains the results of this pipeline when the training_data file is data/wsj_sec0_19.word and the test_data file is data/wsj_sec22.word. Each respective lambda value is listed in the file name. 
+The output folder contains the results of this pipeline when the training_data file is data/wsj_sec0_19.word and the test_data file is data/wsj_sec22.word. For the output of ```ppl.sh```, each respective lambda value is listed in the file name. 
 
 HW6 OF LING570 (11/11/2021)
