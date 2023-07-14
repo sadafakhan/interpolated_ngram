@@ -1,5 +1,5 @@
 # interpolated_ngram
-Takes an input corpus, collects n-grams for n=(1,2,3), builts a language model, and calculates the perplexity. 
+```interpolated_ngram``` takes an input corpus, collects n-grams for n=(1,2,3), builts a language model, and calculates the perplexity. 
 
 ```ngram_count.sh``` takes training data & produces a file enumerating uni-, bi- and tri-grams from the file and their respective counts. 
 
